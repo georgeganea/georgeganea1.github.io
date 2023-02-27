@@ -8,10 +8,7 @@ const redirectFunction = (e) => {
   let value = params.redirect; // "facebook.com"
 
   console.log('value', value)
-
-  chrome.tabs.update(
-    updateProperties = {url:  value}
-  );
+  window.location.href = value;
 }
 
 
