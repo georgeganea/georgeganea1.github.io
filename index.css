@@ -40,6 +40,7 @@ html {
 }
 
 .imgContainer {
+  position: relative;
   max-height: 100vh;
   overflow: hidden;
 }

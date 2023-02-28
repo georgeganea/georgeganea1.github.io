@@ -7,8 +7,6 @@ const redirectFunction = (e) => {
 
   console.log("value", value);
   window.location.href = value;
-
-  // chrome.tabs.update((updateProperties = { url: value }));
 };
 
 const redirecto = document.getElementById("override-button");
