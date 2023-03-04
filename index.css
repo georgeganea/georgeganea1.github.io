@@ -3,6 +3,9 @@ html {
   padding: 0;
   margin: 0;
   background-color: #03b8c3;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .ellipse {
