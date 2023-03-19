@@ -31,6 +31,13 @@ html {
   cursor: pointer;
 }
 
+.buttonAndChairContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: flex-end;
+}
+
 .leaveMe {
   /* position: absolute; */
   top: 50%;
