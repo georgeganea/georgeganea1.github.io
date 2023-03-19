@@ -2,7 +2,7 @@ body,
 html {
   padding: 0;
   margin: 0;
-  background-color: #4A7B4C;
+  background-color: #375C38;
   height: 100%;
 }
 
@@ -17,31 +17,32 @@ html {
 #override-button {
   padding: 0;
   margin: 0;
-  position: absolute;
+  /* position: absolute; */
   /* margin-left: 10px;
   margin-top: 10px; */
   top: 200px;
-  height: 240px;
+  height: 200px;
+  width: 200px;
   border: none;
   color: #333;
-  border-radius: 120px;
-  background-color: #f1f1f1;
+  background-color:#FFBD59;
+  border-radius: 100px;
   z-index: 1;
   cursor: pointer;
 }
 
 .leaveMe {
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
-  color: #4A7B4C;
+  color: #375C38;
   font-weight: bold;
   text-align: center;
 }
 
-.imgContainer {
+.outerContainer {
   display: flex;
   justify-content: center;
   align-items: center;
